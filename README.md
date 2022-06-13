@@ -2,7 +2,7 @@
 <p align="center">
   hi! welcome to my github Profile :) 
   <br>
-  I dont really use github,idk why i made this account lol
+  I Make Website and stuffs
 </p>
 
 <p align="center">📊GitHub Stats :</p>
