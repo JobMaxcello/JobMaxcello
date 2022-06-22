@@ -2,7 +2,7 @@
 <p align="center">
   hi! welcome to my github Profile :) 
   <br>
-  I Make Website and stuffs
+  Hi My Name is JobC, I make Website, i learn java and i like to draw :)
 </p>
 
 <p align="center">📊GitHub Stats :</p>
