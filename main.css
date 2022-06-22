@@ -1,0 +1,123 @@
+@font-face {
+  font-family: hack;
+  url: url('Hack-Regular.ttf');
+}
+
+:root {
+  --dark: #0d121a;
+  --secondary: #232830;
+  --border: #353f4f;
+  --primary: #fff;
+  --brand: #558aed;
+  --red: #F4485A;
+  --yellow: #F4CE48;
+  --green: #48F478;
+  --cyan: #55deed;
+  --blue: #4878F4;
+  --purple: #8248F4;
+  --pink: #e855ed;
+}
+
+body {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+/*
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400 !important;
+}*/
+
+a {
+  transition: 0.3s;
+  color: var(--brand);
+}
+
+a:hover {
+  color: var(--primary);
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active {
+  border-radius: 4px !important;
+  transition: 0.1s;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  color: var(--primary-hover);
+  background-color: var(--secondary);
+  box-shadow: none !important;
+  border: 2px solid var(--border);
+}
+
+.btn-primary:hover {
+  background-color: var(--brand);
+  color: var(--dark);
+  border: 2px solid var(--brand);
+}
+
+.terminal {
+  border-radius: 4px;
+  padding-left: 0.8em !important;
+  padding: 0.5em;
+  font-family: hack !important;
+  background-color: #040507 !important;
+}
+
+.green {
+  color: var(--green) !important;
+}
+
+.red {
+  color: var(--red) !important;
+}
+
+.yellow {
+  color: var(--yellow) !important;
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.white {
+  color: var(--primary);
+}
+
+.terminal-body {
+  font-size: 15px;
+  padding-bottom: 50%;
+  font-weight: 600;
+  background-color: #040507;
+}
+
+.type {
+  background-color: var(--primary);
+  padding-right: 0.6em;
+  transition: 0s;
+  margin: 0;
+  margin-left: 0.3em;
+}
+
+@keyframes blink{
+0%{opacity: 0;transition:0s;}
+50%{opacity: 1;transition:0s;}
+100%{opacity: 0;transition:0s;}
+}
+
+.text {
+  margin-left: 0.5em;
+}
+
+.title {
+      text-align: center;
+    font-size: 0.75em;
+    height: 18px;
+    position: relative;
+    top: 2px;
+}
